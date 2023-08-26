@@ -3,24 +3,17 @@
     padding: 0px;
 }
 
-.conteiner{
-    display: flex;
-    width: 100vw;
-    flex-flow: ;
-    height: 100vh;
+body{
+    background-color: #333;
 }
+
+
 .conteiner div{
-    height: 50%;
-    width: 50%;
-    border: 2px solid black;   
-}
-
-
-/* div{
-    margin: auto;
+    margin: 50px 0px 0px 0px;
     background-color: #333;
     border-radius: 15px;
-    width: 500px;
+    width: 100%;
+    height: 500;
     text-align: center;
     color: #ede6e6;
     padding: 10px;
@@ -35,4 +28,4 @@ button{
     margin: 20px 0 20px 0;
     color: rgb(215, 208, 207);
     cursor: pointer;
-} */
+}
