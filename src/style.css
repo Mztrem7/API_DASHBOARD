@@ -1,4 +1,22 @@
-div{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner{
+    display: flex;
+    width: 100vw;
+    flex-flow: ;
+    height: 100vh;
+}
+.conteiner div{
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;   
+}
+
+
+/* div{
     margin: auto;
     background-color: #333;
     border-radius: 15px;
@@ -16,4 +34,5 @@ button{
     height: 30px;
     margin: 20px 0 20px 0;
     color: rgb(215, 208, 207);
-}
+    cursor: pointer;
+} */
